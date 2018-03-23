@@ -1,0 +1,203 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+    background: rgba(0,0,0,0.1);
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+p{
+    line-height: 1.5;
+}
+.wrapper{
+    background: #4bb7d0;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,1);
+    box-shadow: 0px 2px 4px rgba(0,0,0,1);
+}
+/*Main Wrapper */
+.main-wrapper{
+    background: #fff;
+    padding: 60px;
+    padding-right: 300px;
+}
+.main-wrapper .section{
+    margin-bottom: 60px;
+}
+.main-wrapper .section-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2d7788;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.main-wrapper .job-title{
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.main-wrapper .time{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+}
+.main-wrapper .upper-row{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+.main-wrapper .company{
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
+.main-wrapper .section-title .fa{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    background-clip: padding-box;
+    background: #2d7788;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+    border-radius: 50%;
+}
+/*skillset */
+.skillset .item{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.skillset .level-title{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.skillset .level-bar {
+    height: 12px;
+    background: #e0ebef;
+}
+.skillset .level-bar-inner{
+    height: 12px;
+    background: #7bc2d3;
+}
+.footer{
+    padding: 30px;
+    padding-top: 60px;
+}
+.footer .copyright{
+    line-height: 1.6;
+    color: #545E6C;
+    font-size: 13px;
+}
+/* Side Bar CSS */
+.sidebar-wrapper{
+    background: #42A8C0;
+    position: absolute;
+    right: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+}
+.sidebar-wrapper .profile-container{
+    padding: 30px;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    color: #fff;
+}
+.sidebar-wrapper .profile-container .profile{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 70%;
+    height: 120px;
+}
+.sidebar-wrapper .name{
+    font-size:26px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10;
+}
+.sidebar-wrapper .tagline{
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sidebar-wrapper .profile{
+    margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li{
+    margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li:last-child{
+    margin-bottom: 0;
+}
+.sidebar-wrapper .container-block{
+    padding: 15px;
+}
+.sidebar-wrapper .container-block-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.sidebar-wrapper .degree{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item{
+    margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child{
+    margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta{
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.sidebar-wrapper .education-container .time{
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc{
+    color: rgba(255,255,255,0.6);
+}
+.sidebar-wrapper .languages-list{
+    margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li{
+    margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child{
+    margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list{
+    margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li{
+    margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child{
+    margin-bottom: 0;
+}
