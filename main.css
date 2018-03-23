@@ -95,15 +95,6 @@ p{
     height: 12px;
     background: #7bc2d3;
 }
-.footer{
-    padding: 30px;
-    padding-top: 60px;
-}
-.footer .copyright{
-    line-height: 1.6;
-    color: #545E6C;
-    font-size: 13px;
-}
 /* Side Bar CSS */
 .sidebar-wrapper{
     background: #42A8C0;
