@@ -22,7 +22,6 @@ p{
     -moz-box-shadow: 0px 2px 4px rgba(0,0,0,1);
     box-shadow: 0px 2px 4px rgba(0,0,0,1);
 }
-/*Main Wrapper */
 .main-wrapper{
     background: #fff;
     padding: 60px;
@@ -62,22 +61,6 @@ p{
     margin-bottom: 10px;
     color: #97AAC3;
 }
-.main-wrapper .section-title .fa{
-    width: 30px;
-    height: 30px;
-    margin-right: 8px;
-    display: inline-block;
-    color: #fff;
-    background-clip: padding-box;
-    background: #2d7788;
-    text-align: center;
-    padding-top: 8px;
-    font-size: 16px;
-    position: relative;
-    top: -2px;
-    border-radius: 50%;
-}
-/*skillset */
 .skillset .item{
     margin-bottom: 15px;
     overflow: hidden;
@@ -95,7 +78,6 @@ p{
     height: 12px;
     background: #7bc2d3;
 }
-/* Side Bar CSS */
 .sidebar-wrapper{
     background: #42A8C0;
     position: absolute;
@@ -191,4 +173,16 @@ p{
 }
 .sidebar-wrapper .interests-list li:last-child{
     margin-bottom: 0;
+}
+.footer{
+    padding: 30px;
+    padding-top: 60px;
+}
+.footer .copyright{
+    line-height: 1.5;
+    color: #54566C;
+    font-size: 13px;
+}
+.footer .fa-heart{
+    color: #fb866a;
 }
